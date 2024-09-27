@@ -12,7 +12,7 @@ include('includes/navbar.php');
                         <h5>Registration Form</h5>
 </div>
 <div class="card-body">
-    <form action="">
+    <form action="code.php"method="POST">
                             <div class="form-group mb-3"> 
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" class="form-control">
